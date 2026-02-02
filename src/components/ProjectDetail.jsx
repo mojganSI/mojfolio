@@ -32,7 +32,7 @@ function ProjectDetail() {
     <div className="app">
       {/* Header avec navigation */}
       <div className="project-header">
-        <Link to="/" className="back-link">
+        <Link to="/projets" className="back-link">
           {t("backToPortfolio")}
         </Link>
         <div className="lang-switcher">

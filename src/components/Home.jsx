@@ -32,6 +32,7 @@ function Home() {
       </header>
 
       <main className="hero-three-cols">
+        {/* Colonne gauche : accueil simple comme avant */}
         <div className="hero-col hero-col-left">
           <h1 className="hero-welcome-title">{t("welcomeTitle")}</h1>
           <p className="hero-welcome-text">{t("heroText")}</p>
@@ -45,12 +46,18 @@ function Home() {
           </div>
         </div>
 
+        {/* Colonne centrale : illustration / logo */}
         <div className="hero-col hero-col-center">
           <div className="hero-illustration-wrap">
-            <img src={logo} alt="Mojgan Sigarchian" className="hero-illustration" />
+            <img
+              src={logo}
+              alt="Mojgan Sigarchian"
+              className="hero-illustration"
+            />
           </div>
         </div>
 
+        {/* Colonne droite : à propos simple comme avant */}
         <div className="hero-col hero-col-right">
           <h2 className="hero-about-title">{t("aboutMe")}</h2>
           <p className="hero-about-text">{t("aboutText")}</p>

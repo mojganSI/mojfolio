@@ -421,7 +421,7 @@ export const projects = [
       en: "VR space exploration game with immersive interactions to repair a spaceship.",
     },
     color: "orange",
-    githubUrl: "#",
+    githubUrl: null,
     videoUrl: "",
     specificites: {
       fr: [
@@ -475,12 +475,10 @@ export const projects = [
         },
         details: {
           fr: [
-            "Création des assets 3D avec Blender",
             "Modélisation du vaisseau spatial",
             "Adaptation des modèles pour VR",
           ],
           en: [
-            "Creation of 3D assets with Blender",
             "Modelling of the spaceship",
             "Adapting models for VR",
           ],
@@ -513,12 +511,10 @@ export const projects = [
         },
         details: {
           fr: [
-            "Système de portes (automatiques et avec énigmes)",
             "Système de lumière interactif",
             "Mécanismes de réparation",
           ],
           en: [
-            "Door system (automatic and puzzle-based)",
             "Interactive light system",
             "Repair mechanisms",
           ],
@@ -562,7 +558,6 @@ export const projects = [
       fr: [
         "Développer des interactions VR réalistes et intuitives",
         "Maîtriser Unity et les outils VR pour Meta Quest 3",
-        "Modéliser et adapter des assets 3D avec Blender",
         "Concevoir une expérience utilisateur immersive en VR",
         "Collaborer efficacement en équipe avec répartition claire des tâches",
         "Intégrer logique spatiale, physique et design d'interaction",
@@ -571,14 +566,13 @@ export const projects = [
       en: [
         "Develop realistic and intuitive VR interactions",
         "Use Unity and VR tools for Meta Quest 3",
-        "Model and adapt 3D assets with Blender",
         "Design an immersive user experience in VR",
         "Collaborate efficiently in a team with clear task sharing",
         "Combine spatial logic, physics and interaction design",
         "Optimise performance for a smooth VR experience",
       ],
     },
-    technologies: ["Unity", "C#", "Meta Quest 3", "Blender", "VR Toolkit"],
+    technologies: ["Unity", "C#", "Meta Quest 3", "VR Toolkit"],
     stats: {},
   },
   {
