@@ -71,3 +71,5 @@ function CompetencesPage() {
 }
 
 export default CompetencesPage;
+
+
